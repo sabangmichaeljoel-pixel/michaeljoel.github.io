@@ -12,17 +12,17 @@
 # ║                                                                      ║
 # ║  Change it to "portfolio" once you have filled in your details.      ║
 # ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "landing"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
+siteMode: "portfolio"   # ← CHANGE THIS to "portfolio"
+siteUrl:  "https://michaeljoel.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
 showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
-name: "Git Vitae"              # Your name — shown in the header and used as a fallback in the avatar
-title: "Portfolio-Resume Engineer"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
-phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
+name: "Michael Joel Sabang"              # Your name — shown in the header and used as a fallback in the avatar
+title: "Virtual Assistant"
+tagline: "Detail-Oriented Virtual Assistant | Streamlining Operations, Elevating Client Success"
+email: "sabang.michaeljoel@gmail.com"
+phone: "0976-497-8935"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
+location: "Block 1 Lot 3, Rosalina 3 Village, Baliok, Davao City, Philippines"
 avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
@@ -81,18 +81,18 @@ sections:
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
+  github:   ""
+  linkedin: ""
   twitter:  ""
   website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+  I'm a Virtual Assistant with expertise in data management and customer service.
+  Certified in Digital Marketing, Social Media Marketing, and Google Ads Display.
+  I deliver accurate, efficient, and proactive support to drive organizational success.
+  
 
 
 # ── Stats ──────────────────────────────────────────────────────────────
@@ -131,38 +131,38 @@ skills:
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - company: "Flatworld Solutions PH"
+    role: "Data Entry Specialist"
+    period: "Apr 2025 – Aug 2025"
     description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
+      Responsible for accurate data entry, record organization, and 
+      team collaboration to streamline data processes.
     highlights:
-      - Microservices migration
-      - 60% latency reduction
-      - Team leadership
+      - Maintained high attention to detail to ensure data integrity and reliability
+      - Communicated constantly with team members to streamline data processes.
+      - Employed effective time management to meet deadlines.
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
+  - company: "AQUAFIN Swim School"
+    role: "Virtual Assistant"
+    period: "Mar 2022 – Nov 2022"
     description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
+      Supported daily operations, client communication, 
+      and event-related activities for a swim school.
     highlights:
-      - Real-time collaboration
-      - 50k users
-      - Frontend ownership
+      - Developed and maintained effective communication channels, enhancing client satisfaction
+      - Assisted with event planning, contributing to successful promotional activities.
+      
 
-  - company: "Freelance"
-    role: "Web Developer"
-    period: "2018 – 2020"
+  - company: "Concentrix PH"
+    role: "Customer Service Representative"
+    period: "Oct 2021 – Jan 2022"
     description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
+      Handled customer inquiries, resolved issues, and delivered 
+      high-quality support in a fast-paced call center environment.
     highlights:
-      - 20+ projects
-      - E-commerce
-      - Internal tools
+      - Consistently received positive feedback for exceptional customer service and support.
+      - Resolved customer issues efficiently, leading to a notable increase in customer loyalty.
+      
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
