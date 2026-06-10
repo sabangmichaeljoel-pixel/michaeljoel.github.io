@@ -23,7 +23,7 @@ tagline: "Detail-Oriented Virtual Assistant | Streamlining Operations, Elevating
 email: "sabang.michaeljoel@gmail.com"
 phone: "0976-497-8935"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "Block 1 Lot 3, Rosalina 3 Village, Baliok, Davao City, Philippines"
-avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
+avatarUrl: "avatarUrl: "https://github.com/sabangmichaeljoel-pixel.png""  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
@@ -76,7 +76,7 @@ sections:
   - { id: education,      show: true  }
   - { id: certifications, show: true  }
   - { id: publications,   show: false }
-  - { id: testimonials,   show: true  }
+  - { id: testimonials,   show: false  }
   - { id: contact,        show: true  }
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
@@ -101,8 +101,7 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
+  - { label: "Job Experiences", value: 3,    suffix: "" }
   - { label: "Happy Clients",    value: 50,   suffix: "+" }
   - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
 
@@ -114,20 +113,19 @@ stats:
 # ── Languages ──────────────────────────────────────────────────────────
 # level options: Native | Fluent | Conversational | Basic
 languages:
-  - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
+  - { name: "English",  level: "Fluent"        }
+
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
-  - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
-  - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+  - category: "Google Workspace & Microsoft 365 (Basic)"
+    items: [Docs, Sheets, Slides, Drive, Word, Excel]
+  - category: "Canva & Basic Graphic Design"
+    items: [Templates, resizing for social media, text & image layering, brand colors, exporting PNG/PDF]
+  - category: "Zoom & Virtual Collaboration"
+    items: [Scheduling meetings, screen sharing, breakout rooms, chat & reactions, Recording]
+  - category: "Social Media (Basic Management)"
+    items: [Posting, hashtags, basic engagement, profile setup, privacy settings]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
@@ -167,115 +165,66 @@ experience:
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
+  - name: "Data Integrity & Workflow Improvement"
+    description: "This project cleaned, organized, and validated a client database to ensure high data accuracy. It streamlined data entry processes through team collaboration, reducing duplicate entries and improving workflow efficiency."
+    tags: [Excel, Google Sheets, Team Collaboration Tools]
+    liveUrl: ""
+    repoUrl: ""
     featured: true
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
+  - name: "Client Communication System for Swim School"
+    description: "This project established clear communication channels between parents, coaches, and admin staff. It improved response times, reduced missed messages, and increased overall client satisfaction."
+    tags: [Email, Google Calendar, WhatsApp/Messenger, iClassPro]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
+    repoUrl: ""
     featured: true
 
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
-
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
+  - name: "Customer Loyalty Resolution Initiative"
+    description: "This project focused on resolving customer complaints and issues efficiently, resulting in higher retention rates. It used empathetic communication and fast problem-solving to turn negative experiences into positive feedback."
+    tags: [CRM Software (Amazon), Call Center Tools, Email Support]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
-    featured: false
+    repoUrl: ""
+    featured: true
+
+
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "University of Mindanao"
+    degree: "B.S. Business Administration major in Financial Management"
+    period: ""
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
-    credentialUrl: ""
+  - title: "Social Media Marketing"
+    issuer: "HubSpot Academy"
+    date: "2026"
+    credentialUrl: "https://app-na2.hubspot.com/academy/achievements/kh178dt9/en/1/michael-joel-sabang/social-media-marketing"
     badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
+    tags: [Content Strategy, HubSpot, SMM]
+
+  - title: "Digital Marketing"
+    issuer: "HubSpot Academy"
+    date: "2026"
+    credentialUrl: "https://app-na2.hubspot.com/academy/achievements/jg4sm37z/en/1/michael-joel-sabang/digital-marketing"
+    badgeUrl: ""
+    tags: [SEO, Inbound, HubSpot]
+
+  - title: "Google Ads Display"
+    issuer: "Google Skillshop"
+    date: "2026"
+    credentialUrl: "https://skillshop.credential.net/3348a889-45f7-47b8-b25e-f7b69a37ff81#acc.kuvSCIJE"
+    badgeUrl: "https://skillshop.credential.net/3348a889-45f7-47b8-b25e-f7b69a37ff81#acc.kuvSCIJE"
+    tags: [DisplayAdvertising, GoogleAds, DisplayMarketing]
 
 
 # ── Publications ───────────────────────────────────────────────────────
 # Optional — ideal for researchers, academics, and technical writers.
 # type options: conference | journal | preprint | book-chapter | workshop
-publications:
-  - title: "Scaling Real-Time Collaboration in Distributed Systems"
-    authors: "Rivera A, Chen L, Patel S"
-    venue: "USENIX ATC 2023"
-    year: "2023"
-    url: "https://arxiv.org/abs/example"
-    type: "conference"
-    tags: [distributed-systems, real-time, scalability]
 
-  - title: "Micro-Frontend Architecture Patterns for Large-Scale SPAs"
-    authors: "Rivera A"
-    venue: "IEEE Software"
-    year: "2022"
-    url: ""
-    type: "journal"
-    tags: [frontend, architecture, micro-frontends]
 
 # ── Testimonials ───────────────────────────────────────────────────────
-testimonials:
-  - name: "Sarah Chen"
-    title: "Engineering Manager"
-    company: "Acme Corp"
-    relationship: "Manager"   # e.g. Manager | Colleague | Client | Mentor
-    quote: |
-      Alex is one of the most thoughtful engineers I've had the pleasure of
-      working with. They consistently delivered high-quality work on time and
-      elevated the entire team's standards.
-    photoUrl: ""              # URL to headshot — leave empty for initials
 
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
-    relationship: "Client"
-    quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
-    photoUrl: ""
 
 # ── Analytics (optional, always free) ──────────────────────────────────────
 # Two ways to track who visits your portfolio — both free, no credit card:
